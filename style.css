@@ -1,0 +1,237 @@
+body{
+	 font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+          background-color: #f0f0f0;
+          text-align: center;
+}
+
+
+#menu > ul{
+	background: black;
+	float: right;
+}
+#menu ul{
+	list-style: none;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+#menu ul a{
+	color: white;
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 35px;
+	padding: 0 25px;
+	display: block;
+}
+#menu ul li{
+	float: left;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+#menu ul li:hover{
+       background: #A219D1;
+}
+
+#menu ul ul {
+	position: absolute;
+	background: #260930;
+	top: 100%;
+	left: 20px;
+	display: none;
+
+}
+#menu ul ul li{
+        float: none;
+        width: 250px;
+        border-left: 3px solid black;
+}
+ 
+ #menu ul ul li:hover{
+         border-left: 3px solid black;
+ }
+
+#menu ul ul ul{
+        top: 0px;
+        left: 100%;
+ }
+
+ #menu ul li:hover > ul{
+        display: block;
+ }
+ .nav-c{
+ 	padding-top: 40px;
+ 	padding-right: 150px;
+ }
+
+ .abc{
+	height: 500px;
+    width: 100%s;
+	background-image:url('banner.jpg');
+	background-size: cover;
+	animation-name: xyz;
+	animation-duration: 80s;
+	animation-iteration-count: infinite;
+	}
+
+.logo {
+	float: left;
+}
+   
+
+   .box:hover{
+	     transform: scale(1.05);
+	}
+
+	.hello{
+		background-color: dimgrey;
+		color: initial;
+		padding: 30px;
+		text-align: center;
+	    font-weight: bold; 
+	}
+	.hello:hover{
+		background-color: #581845;
+		text-transform: capitalize;
+		font-size: 100px;
+		transform: scale(1.2);
+		font-weight: bold; 
+	}
+
+	.qwe{
+			width: 90%;
+			padding: 20px;
+			margin: 100px auto;
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+		}
+
+		.asd{
+			width: 90%;
+			padding: 20px;
+			margin: 100px auto;
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			margin-left: 300px;
+		}
+		.h2{
+			font-size: 100px;
+			font-weight: bold;
+		}
+		 .btn-buy {
+            background-color: #28a745;
+            color: #fff;
+            padding: 15px;
+            margin-right: 280px
+        }
+
+        .btn-buy:hover {
+            background-color: #218838;
+        }
+
+          .name{
+          color: blue;
+          font-weight: 900px;
+          position: relative;
+            
+        }
+       
+          .product-image {      
+          padding: 20px;
+          margin: 20px;    
+         box-shadow: 0px 0px  20px rgba(0, 0, 0, 0.6)
+         }
+
+           .container {
+            margin-top: 30px;
+        }
+
+        .product-image {
+            width: 510px;
+            max-width: 100%;
+            height: auto;
+        }
+        .info{
+     	font-size: 2pc;
+ 
+      }
+       .info:hover{
+   	   color: black;
+      } 
+      h1{
+      	font-weight: bold;
+      	color: white;
+      }
+	@keyframes xyz{
+		0%{
+			background-image: url('banner1.jpg');
+		}
+		5%{
+			background-image: url('banner2.jpg');
+		}
+		10%{
+			background-image: url('banner3.jpg');
+		}
+		15%{
+			background-image: url('banner4.jpg');
+		}
+		20%{
+			background-image: url('banner5.jpg');
+		}
+		25%{
+			background-image: url('banner6.jpg');
+		}
+		30%{
+			background-image: url('banner7.jpg');
+		}
+		35%{
+			background-image: url('banner8.jpg');
+		}
+		40%{
+			background-image: url('banner9.jpg');
+		}
+		45%{
+			background-image: url('banner10.jpg');
+		}
+		50%{
+			background-image: url('banner11.jpg');
+		}
+		55%{
+			background-image: url('banner12.jpg');
+		}
+		60%{
+			background-image: url('banner13.jpg');
+		}
+		65%{
+			background-image: url('banner14.jpg');
+		}
+		70%{
+			background-image: url('banner15.jpg');
+		}
+		75%{
+			background-image: url('banner16.jpg');
+		}
+		80%{
+			background-image: url('banner17.jpg');
+		}
+		85%{
+			background-image: url('banner18.jpg');
+		}
+		90%{
+			background-image: url('banner19.jpg');
+		}
+		95%{
+			background-image: url('banner20.jpg');
+		}
+		100%{
+			background-image: url('banner21.jpg');
+		}
+		
+		  }
